@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vlastni.css">
+    <link rel="icon" type="image/x-icon" href="src/favicon.png">
+    <!--Fonty a ikony-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Paměti - Dělení DRAM</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 sidebarvec py-3">
+                <nav class="bd-links" id="bd-docs-nav">
+                    <div class="bd-toc-item">
+                        <a class="text-dark text-decoration-none m-1" href="index.html">
+                            Home
+                        </a>
+                        <hr>
+                        <ul class="nav bd-sidenav">
+                            <div class="column">
+                                <li class="m-1">
+                                    <a class="text-dark text-decoration-none" href="zakladni-fakta.html">
+                                        Základní fakta
+                                    </a>
+                                </li>
+                                <li class="m-1 my-2">
+                                    <a class="text-dark text-decoration-none" href="static-dynamic.html">
+                                        Statická a dynamická
+                                    </a>
+                                </li>
+                                <li class="m-1 my-2">
+                                    <a class="text-dark text-decoration-none" href="dram.html">
+                                        Dělení DRAM modulů
+                                    </a>
+                                </li>
+                                <li class="m-1">
+                                    <a class="text-dark text-decoration-none" href="jak-vybrat-ram.html">
+                                        Jak vybrat RAM?
+                                    </a>
+                                </li>
+                                <li class="m-1 my-2">
+                                    <a class="text-dark text-decoration-none" href="vyrobci.html">
+                                        Výrobci
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                        <hr>
+                        <a class="text-dark text-decoration-none m-1" href="zdroje.html">
+                            Zdroje
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-10 animate-left">
+                <br>
+                <h1>Dělení DRAM modulů</h1><br>
+                <ul>
+                    <li>
+                        <strong>DIPP, DILL, SIPP</strong>
+                    </li><br>
+                    <li>
+                        <strong>SIMM</strong> – (72pin, 30pin) – (Single Inline Memory Module)
+                    </li><br>
+                    <li>
+                        <strong>DIMM</strong> – 3,3 V a 5 V – (Dual Inline Memory Module) – Jedná se defakto o dva
+                        moduly SIMM
+                        integrované na jedné desce. Důvodem je obsazení celé šířky sběrnice.
+                    </li><br>
+                    <li>
+                        <strong>SDR</strong> – (Single Data Rate), spíše označovány jako SDRAM (Synchronous Dynamic
+                        RAM), starší typ
+                        pamětí typu DIMM (3,3 nebo 5 V), 168 pinů, kapacity od 16 MB do 512 MB, rychlost od 66 MHz do
+                        133 MHz (max 200 MHz), dva zářezy jako pojistka. Označení paměti PC100 odpovídá skutečné fyzické
+                        frekvenci (100 MHz).
+                    </li><br>
+                    <li>
+                        <strong>DDR</strong> – (Double Data Rate) novější typ pamětí typu SDR, 3,3 V, 184 pinů, jen
+                        jeden zářez jako
+                        pojistka, frekvence 100 až 200 MHz, kapacity od 64 do 2048 MB. Vylepšení je v tom, že přenáší
+                        data na náběžné i koncové hraně taktovacího impulsu. Označení paměti DDR400 odpovídá dvojnásobku
+                        skutečné fyzické frekvence hodin (200 MHz).
+                    </li><br>
+                    <li>
+                        <strong>DDR2</strong> – novější typ pamětí DDR, podobné jako DDR, frekvence 200 až 533,33 MHz.
+                        Nevýhodou DDR2
+                        jsou vyšší časy latence než u DDR. Označení paměti DDR2-800 odpovídá čtyřnásobku skutečné
+                        fyzické frekvence hodin (200 MHz).
+                    </li><br>
+                    <li>
+                        <strong>DDR3</strong> – Označení paměti DDR3-1600 odpovídá osminásobné
+                        skutečné frekvence hodin (200 MHz)<br>
+                        <i>Frekvence sběrnice 400 až 1066,67 MHz.</i>
+                    </li><br>
+                    <li>
+                        <strong>DDR4</strong> – Prodej zahájen v roce 2014. Dnes nejrozšířenější typ.<br>
+                        <i>Frekvence sběrnice 1066,67 až 2133,33 MHz, až 4266,67 MT/s při 1,05 V</i>
+                    </li><br>
+                    <li>
+                        <strong>DDR5</strong> - Prodej zahájen v roce 2021. Nejnovější typ pamětí.
+                    </li><br>
+                    <li>
+                        <strong>SO-DIMM</strong> – DIMM paměti používané pro notebooky (zmenšená velikost), 72pin nebo
+                        144 a 200 pin,
+                        další dělení stejně jako DIMM výše
+                    </li><br>
+                    <li>
+                        <strong>RIMM</strong> – Rambus DRAM (RDRAM). Oproti DDR DIMMu má jen 16 bitů přenosové šířky,
+                        ale zato je výrazně
+                        rychleji taktován.
+                    </li>
+                </ul>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="container col-12 responsivnifooter">
+                <footer class="my-4">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    home
+                                </span>Home</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="zakladni-fakta.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    fact_check
+                                </span>Základní fakta</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="static-dynamic.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    memory_alt
+                                </span>Statická a
+                                dynamická</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="dram.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    schema
+                                </span>Dělení DRAM modulů</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="jak-vybrat-ram.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    contact_support
+                                </span>Jak vybrat RAM?</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="vyrobci.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    groups
+                                </span>Výrobci</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="zdroje.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    frame_source
+                                </span>Zdroje</a>
+                            <hr>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vlastni.css">
+    <link rel="icon" type="image/x-icon" href="src/favicon.png">
+    <!--Fonty a ikony-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Paměti - SRAM a DRAM</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 sidebarvec py-3">
+                <nav class="bd-links" id="bd-docs-nav">
+                    <div class="bd-toc-item">
+                        <a class="text-dark text-decoration-none m-1" href="index.html">
+                            Home
+                        </a>
+                        <hr>
+                        <ul class="nav bd-sidenav">
+                            <div class="column">
+                                <li class="m-1">
+                                    <a class="text-dark text-decoration-none" href="zakladni-fakta.html">
+                                        Základní fakta
+                                    </a>
+                                </li>
+                                <li class="m-1 my-2">
+                                    <a class="text-dark text-decoration-none" href="static-dynamic.html">
+                                        Statická a dynamická
+                                    </a>
+                                </li>
+                                <li class="m-1 my-2">
+                                    <a class="text-dark text-decoration-none" href="dram.html">
+                                        Dělení DRAM modulů
+                                    </a>
+                                </li>
+                                <li class="m-1">
+                                    <a class="text-dark text-decoration-none" href="jak-vybrat-ram.html">
+                                        Jak vybrat RAM?
+                                    </a>
+                                </li>
+                                <li class="m-1 my-2">
+                                    <a class="text-dark text-decoration-none" href="vyrobci.html">
+                                        Výrobci
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                        <hr>
+                        <a class="text-dark text-decoration-none m-1" href="zdroje.html">
+                            Zdroje
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-10 animate-left">
+                <br>
+                <div class="flex1">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="src/sram-schema.png" alt="SRAM schéma"
+                            title="Zapojení paměťové buňky pro 1 bit v paměti SRAM vyrobené technologií CMOS.">
+                        <div class="card-body p-3">
+                            <p class="card-text text-center font-italic">SRAM schéma</p>
+                        </div>
+                    </div><br>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="src/dram-schema.png" alt="DRAM schéma"
+                            title="Zapojení paměťové buňky pro 1 bit v paměti DRAM.">
+                        <div class="card-body p-3">
+                            <p class="card-text text-center font-italic">DRAM schéma</p>
+                        </div>
+                    </div>
+                </div>
+                <h1>Statická a dynamická RAM</h1><br>
+                <h4><span class="material-symbols-outlined ikony2 weightikona">short_text</span>Zkratky</h4>
+                <p>
+                    <strong>SRAM</strong> - Statická RAM<br>
+                    <strong>DRAM</strong> - Dynamická RAM
+                </p><br>
+
+                <h4><span class="material-symbols-outlined ikony2">bar_chart</span>Rozdíly</h4>
+                <h5>DRAM</h5>
+                <p>
+                <ul>
+                    <li>Cenově a trhově dostupnější</li>
+                    <li>Pomalejší</li>
+                    <li>Delší přístupový čas</li>
+                    <li>Jednoduchá konstrukce</li>
+                    <li>Vysoká spotřeba energie</li>
+                </ul>
+                </p>
+                <h5>SRAM</h5>
+                <p>
+                <ul>
+                    <li>Dražší</li>
+                    <li>Rychlejší</li>
+                    <li>Méně kompaktní</li>
+                    <li>Komplexní konstrukce</li>
+                    <li>Nízká spotřeba energie</li>
+                </ul>
+                </p><br>
+                <p><strong>SRAM</strong> se nachází například v mikroprocesoru.</p>
+                <p><strong>DRAM</strong> je levnější a výrobně mnohem jednodušší než <strong>SRAM</strong>.</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="container col-12 responsivnifooter">
+                <footer class="my-4">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    home
+                                </span>Home</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="zakladni-fakta.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    fact_check
+                                </span>Základní fakta</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="static-dynamic.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    memory_alt
+                                </span>Statická a
+                                dynamická</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="dram.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    schema
+                                </span>Dělení DRAM modulů</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="jak-vybrat-ram.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    contact_support
+                                </span>Jak vybrat RAM?</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="vyrobci.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    groups
+                                </span>Výrobci</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item"><a href="zdroje.html" class="nav-link px-2 text-dark"><span
+                                    class="material-symbols-outlined ikony">
+                                    frame_source
+                                </span>Zdroje</a>
+                            <hr>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
