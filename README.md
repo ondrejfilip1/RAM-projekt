@@ -1,2 +1,2 @@
 # RAM-projekt
-Ïnformační stránka pro paměti RAM
+Informační stránka pro paměti RAM
